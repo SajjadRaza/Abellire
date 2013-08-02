@@ -12,7 +12,7 @@
 @interface ABTopBarView ()
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UIView *titleView;
+@property (strong, nonatomic) IBOutlet UIView *titleView;
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
 
 - (IBAction)backButtonPressed:(id)sender;
